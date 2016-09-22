@@ -28,3 +28,17 @@ def run_tests():
 
 # Edit this function
 def factor_test(a, b):
+
+    rem = a % b
+    mod = b % a
+    if a == b:
+        print("a = b")
+
+    elif rem == 0:
+        print("b is a factor of a")
+
+    elif mod == 0:
+        print("a is a factor of b")
+
+    else:
+        print("No factors here")

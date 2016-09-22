@@ -32,3 +32,17 @@ def run_tests():
 
 # Edit this function
 def fizzbuzz(n):
+
+    mod = n % 3
+    rem = n % 5
+    if mod == 0 and rem == 0:
+        print("FizzBuzz")
+
+    elif mod == 0:
+        print("Fizz")
+
+    elif rem == 0:
+        print("Buzz")
+
+    else:
+        print(n)
